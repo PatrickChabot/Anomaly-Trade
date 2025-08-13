@@ -2,6 +2,7 @@ import InputField from "./InputField";
 import ButtonComponent from "./ButtonComponent";
 import Divider from "./Divider";  
 import { handleGoogleLogin } from "../auth/GoogleAuth.jsx";
+import BackendTest from "./BackendTest.jsx";
 
 function LoginPage() {
 
@@ -25,6 +26,9 @@ function LoginPage() {
           
           <div className="text-center">
             <ButtonComponent labelText="Login With Gmail" onClick={handleGoogleLogin}/>
+          </div>
+          <div>
+            <BackendTest/>
           </div>
         </div>
       </div>
