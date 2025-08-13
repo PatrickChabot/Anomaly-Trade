@@ -1,4 +1,4 @@
-package com.anomalytrade.demo;
+package com.anomalytrade.demo.controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

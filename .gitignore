@@ -34,3 +34,8 @@ EOF
 #server setup
 Anomaly-Trade/backend/demo/src/main/resources
 /application.properties
+
+# Google OAuth secrets
+secret.json
+**/secret.json
+*.json
