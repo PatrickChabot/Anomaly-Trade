@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'; // Remove BrowserRouter import
-import { useAuth } from './auth/AuthContext';
+import { useAuth } from './context/AuthContext';
 import LoginPage from './components/LoginPage';
 import AuthCallBack from './auth/AuthCallBack';
 import Dashboard from './components/Dashboard';
