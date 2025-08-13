@@ -1,0 +1,19 @@
+{"properties": [
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "Api key for spring's jwt"
+  },
+  {
+    "name": "google.client-secret",
+    "type": "java.lang.String",
+    "description": "Google OAuth client secret"
+  },
+  {
+    "name": "google.client-id",
+    "type": "java.lang.String",
+    "description": "Google OAuth client ID"
+  }
+  
+]
+}
